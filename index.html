@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>colorChange Js</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .border{
+            width: 400px;
+            height: 200px;
+            border-radius: 10px;
+            border: 2px solid black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        h1{
+            color: #ebd217;
+            margin-bottom: 15px;
+        }
+        button{
+            border-radius: 20px;
+            width: 120px;
+            height: 40px;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            margin: 10px;
+        }
+
+        .remove button:hover{
+            background: #ff0000;
+            color: white;
+        }
+          button:hover{
+           background: green;
+           color: white;
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="border">
+    <h1 class="head"> hello yuvaraj</h1>
+    <button onclick="colorChange()" class="click">click</button>
+    <div class="remove">
+    <button>Remove</button>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
